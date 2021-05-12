@@ -46,6 +46,7 @@ public class Topic_01_Check_Environment {
 		boolean loginFormStatus = driver.findElement(By.xpath("//form[@name='frmLogin']")).isDisplayed();
 		System.out.println("Login from status: " + loginFormStatus);
 		Assert.assertTrue(loginFormStatus);
+		System.out.println("");
 	}
 
 	@AfterClass
