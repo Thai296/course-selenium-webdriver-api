@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-11T07:15:06Z" name="Suite" finished-at="2021-05-11T07:17:02Z" duration-ms="115733">
+    <groups>
+    </groups>
+    <test started-at="2021-05-11T07:15:06Z" name="Test" finished-at="2021-05-11T07:17:02Z" duration-ms="115733">
+      <class name="TestNG.NewTest">
+        <test-method is-config="true" signature="BeforeSuite()[pri:0, instance:TestNG.NewTest@38afe297]" started-at="2021-05-11T07:14:53Z" name="BeforeSuite" description="Connecting" finished-at="2021-05-11T07:15:06Z" duration-ms="12969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuite -->
+        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:TestNG.NewTest@38afe297]" started-at="2021-05-11T07:15:06Z" name="BeforeTest" description="refresh the web page" finished-at="2021-05-11T07:15:08Z" duration-ms="2223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method signature="FirstTest()[pri:0, instance:TestNG.NewTest@38afe297]" started-at="2021-05-11T07:15:08Z" name="FirstTest" description="Test Body" finished-at="2021-05-11T07:17:02Z" duration-ms="113474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirstTest -->
+        <test-method is-config="true" signature="AfterSuite()[pri:0, instance:TestNG.NewTest@38afe297]" started-at="2021-05-11T07:17:02Z" name="AfterSuite" description="The end!" finished-at="2021-05-11T07:17:12Z" duration-ms="10625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterSuite -->
+      </class> <!-- TestNG.NewTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
